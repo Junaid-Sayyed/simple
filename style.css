@@ -136,7 +136,7 @@ border: none;
 }
 
 /* -----------media query--------------- */
-@media (min-width:380px) and (max-width:600px){
+@media (min-width:300px) and (max-width:480px){
 
 
     .banner{

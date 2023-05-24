@@ -20,7 +20,6 @@ margin: auto;
 padding: 35px 0;
 display: flex;
 align-items: center;
-justify-content: space-between;
 
 }
 
@@ -35,9 +34,12 @@ height: 100px;
 
 .navbar ul li{
 list-style: none;
-display: inline-block;
+display: inline;
 margin: 0 20px;
 position: relative;
+font-size: 9px;
+
+
 
 }
 
@@ -129,4 +131,57 @@ button:hover{
 border: none;
 
 
+}
+
+/* -----------media query--------------- */
+
+@media only screen and (min-width:480px){
+
+
+
+    .banner{
+        width:100% ;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(assets/background.jpg);
+        background-size: cover;
+        background-position: center;
+        
+        }
+        .navbar{
+        width: 100%;
+        margin: auto;
+        padding: 35px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        }
+        
+        .logo{
+        width: 80px;
+        cursor: pointer;
+        height: 80px;
+        
+        
+        
+        }
+        
+        .navbar ul li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+        position: relative;
+        
+        }
+
+        .content{
+            width:100% ;
+            position: absolute;
+            top: 20%;
+            transform: translateY(-50);
+            text-align: center;
+            color: #ff0000;
+            
+
+        }
 }

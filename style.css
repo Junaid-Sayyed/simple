@@ -61,10 +61,12 @@ left: 0;
 bottom: -10px;
 transition: 0.5s;
 
+
 }
 
 .navbar ul li:hover::after{
     width: 100%;
+    
 }
 
 
@@ -72,7 +74,7 @@ transition: 0.5s;
 .content{
 width:100% ;
 position: absolute;
-top: 30%;
+top: 40%;
 transform: translateY(-50);
 text-align: center;
 color: #ff0000;
@@ -134,9 +136,7 @@ border: none;
 }
 
 /* -----------media query--------------- */
-
-@media only screen and (min-width:480px){
-
+@media (min-width:380px) and (max-width:600px){
 
 
     .banner{
@@ -158,9 +158,9 @@ border: none;
         }
         
         .logo{
-        width: 80px;
+        width: 60px;
         cursor: pointer;
-        height: 80px;
+        height: 60px;
         
         
         
@@ -169,7 +169,7 @@ border: none;
         .navbar ul li{
         list-style: none;
         display: inline-block;
-        margin: 0 20px;
+        margin: 0 10px;
         position: relative;
         
         }
@@ -177,11 +177,29 @@ border: none;
         .content{
             width:100% ;
             position: absolute;
-            top: 20%;
+            top: 30%;
             transform: translateY(-50);
             text-align: center;
-            color: #ff0000;
+        
             
 
         }
+
+        .content h1{
+            font-size: 40px;
+            margin-top: 80px;
+    
+            
+            }
+
+.content p{
+color: aquamarine;
+font-size: 15px;
+
 }
+
+.content b{
+
+    color: #ff0000;
+}
+    }
